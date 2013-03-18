@@ -1,0 +1,9 @@
+.b-test-block
+{
+    margin: 1em 0;
+    background: #eee;
+}
+.b-test-block .b-link + .b-link
+{
+    margin-left: 1em;
+}

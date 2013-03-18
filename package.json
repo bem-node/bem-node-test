@@ -1,0 +1,19 @@
+{
+    "name": "bem-node-test",
+    "version": "0.0.1",
+    "description": "",
+    "keywords": [
+        "bem",
+        "node",
+        "bem-node"
+    ],
+    "author": {
+        "name": "Evgeniy Filatov"
+    },
+    "dependencies": {
+        "bem-node": "*",
+    },
+    "engines": {
+        "node": ">= 0.8.0"
+    }
+}

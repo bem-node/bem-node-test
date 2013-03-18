@@ -6,5 +6,6 @@ exports.blocks = [
     {block: 'i-ycssjs'},
 
     // user part
-    
+
+    {block: 'i-page-test'}    
 ]
