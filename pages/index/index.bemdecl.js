@@ -2,8 +2,9 @@ exports.blocks = [
 
     // bem-node part
 
-    {name: 'i-router', mods: {init: 'auto'}},
-    {name: 'i-yccjs'}
+    {block: 'i-router', mods: {init: 'auto'}},
+    {block: 'i-ycssjs'},
 
     // user part
+    
 ]
