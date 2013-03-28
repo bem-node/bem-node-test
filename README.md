@@ -12,13 +12,9 @@ checkout the project
     git clone https://github.com/wtfil/bem-node-test.git
     cd bem-node-test
 
-next steps will be replaced with "npm install" soon
+install npm dependencies
 
-run this in the root of project
-
-    git clone https://github.com/wtfil/bem-node.git node_modules/bem-node
-    cd node_modules/bem-node && npm install
-
+    npm install
 
 Build project
 ---------------

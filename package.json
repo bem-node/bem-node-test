@@ -11,7 +11,7 @@
         "name": "Evgeniy Filatov"
     },
     "dependencies": {
-        "bem-node": "git://github.com/wtfil/bem-node.git"
+        "bem-node": "*"
     },
     "engines": {
         "node": ">= 0.8.0"
