@@ -2,31 +2,27 @@ BEM.JSON.decl({name: 'b-node-module-doc'}, {
 
     onBlock: function(ctx) {
         var name = ctx.param('name');
+        
+        ctx.defer(
 
-        ctx.wait();
-        BEM.blocks['i-api-doc'].module(name)
-            .then(function (result) {
+            BEM.blocks['i-api-doc'].module(name)
+                .then(function (result) {
 
-                ctx.content([
-                    {elem: 'desc', content: result.desc},
-                    {
-                        elem: 'methods',
-                        content: (result.methods || []).map(function (method) {
-                            return {
-                                elem: 'method',
-                                method: method
-                            }
-                        })
-                    }
-                ]);
+                    ctx.content([
+                        {elem: 'desc', content: result.desc},
+                        {
+                            elem: 'methods',
+                            content: (result.methods || []).map(function (method) {
+                                return {
+                                    elem: 'method',
+                                    method: method
+                                }
+                            })
+                        }
+                    ]);
 
-                ctx.resume();
-            })
-            .fail(function (err) {
-                console.error(err);
-                ctx.resume();
-            })
-            .done();
+                })
+        );
     },
 
     onElem: {
