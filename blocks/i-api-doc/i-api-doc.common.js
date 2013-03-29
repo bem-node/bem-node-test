@@ -1,10 +1,8 @@
 BEM.decl({block: 'i-api-doc'}, null, {
 
-    HOST: 'http://nodejs.org/api/',
-
     index: function () {
         return BEM.blocks['i-api-request']
-            .get(this.HOST + 'index.json')
+            .get('index.json')
             .then(function (result) {
                 /**
                  * @see http://nodejs.org/api/index.json
@@ -29,7 +27,7 @@ BEM.decl({block: 'i-api-doc'}, null, {
 
     module: function (name) {
         return BEM.blocks['i-api-request']
-            .get(this.HOST + name + '.json')
+            .get(name + '.json')
             .then(function (result) {
 
                 if (result.modules && result.modules.length) {
