@@ -11,7 +11,8 @@
         "name": "Evgeniy Filatov"
     },
     "dependencies": {
-        "bem-node": "*"
+        "bem-node": "*",
+        "enb-bemhtml": "0.0.4"
     },
     "engines": {
         "node": ">= 0.8.0"
