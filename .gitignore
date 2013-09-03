@@ -1,3 +1,5 @@
+.DS_Store
+npm-debug.log
 pages/*
 !page/*.bemdecl.js
 node_modules

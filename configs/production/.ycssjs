@@ -1,0 +1,12 @@
+{
+    "paths" : {
+        "./": "/static/{{DEBIAN_VERSION}}/",
+        "freeze/": "/static/_/",
+        "lego/freeze/": "//yandex.st/lego/_/"
+    },
+
+    "freeze_paths" : {
+        "./": "freeze/",
+        "lego/": "freeze/"
+    }
+}
