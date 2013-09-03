@@ -1,0 +1,12 @@
+{
+    "paths" : {
+        "./": "//yandex.st/kino-ui-tv/{{DEBIAN_VERSION}}/",
+        "freeze/": "//yandex.st/kino-ui-tv/_/",
+        "lego/freeze/": "//yandex.st/lego/_/"
+    },
+
+    "freeze_paths" : {
+        "./": "freeze/",
+        "lego/": "freeze/"
+    }
+}

@@ -1,0 +1,11 @@
+.gframe__image {
+    float: left;
+    margin: 10px 0;
+}
+.gframe__portfolio {
+    overflow: hidden;
+    margin: 20px 0;
+}
+.gframe__portfolio_visibility_hidden {
+    visibility: hidden;
+}
