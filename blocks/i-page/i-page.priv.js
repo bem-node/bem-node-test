@@ -6,7 +6,7 @@ BEM.decl('i-page', null, {
      * 
      * @return {Object} bemjson
      */
-    getJson: function (json) {
+    getPageJson: function (json) {
         return {
             block: 'b-page',
             content: [
