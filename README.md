@@ -3,10 +3,6 @@ This is the test project that used bem-node
 Getting Started
 ---------------
 
-install bem tools
-
-    sudo npm install -g bem
-
 checkout the project
 
     git clone https://github.com/wtfil/bem-node-test.git
@@ -23,14 +19,7 @@ You should run this command in the root of project
 
 after creating / removing  of new blocks / files / dependencies
 
-    bem make
-
-or 
-
-    bem make --force
-
-if something is going wrong
-
+    ./node_modules/.bin/enb make
 
 
 Run
